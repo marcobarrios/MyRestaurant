@@ -1,8 +1,9 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
+
+    <style name="Theme.MyRestaurant" parent="@style/MyRestaurantParent" />
+    <!-- Customize your theme here. -->
+
 
 </resources>
