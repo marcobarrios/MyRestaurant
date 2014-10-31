@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.faizmalkani.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_rrhh"
+            app:color="#ffeb3b"
+            app:drawable="@drawable/ic_refresh"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -16,6 +16,51 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ActivityProduccion"
+            android:label="@string/name_produccion"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
+
+        <activity
+            android:name=".ActivityMarketing"
+            android:label="@string/name_marketing"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
+
+        <activity
+            android:name=".ActivityRrhh"
+            android:label="@string/name_rrhh"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
+
+        <activity
+            android:name=".ActivityRestaurante"
+            android:label="@string/name_restaurante"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
+
+        <activity
+            android:name=".ActivityAbout"
+            android:label="@string/name_about"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
     </application>
 
 </manifest>
