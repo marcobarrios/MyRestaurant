@@ -9,8 +9,8 @@
     tools:context=".MyActivity">
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:layout_above="@+id/btn_marketing"
         android:id="@+id/btn_finanzas"
@@ -19,8 +19,8 @@
         android:layout_alignParentStart="true"/>
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:layout_above="@+id/btn_rrhh"
         android:id="@+id/btn_produccion"
@@ -28,8 +28,8 @@
         android:layout_alignParentRight="true"/>
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:id="@+id/btn_marketing"
         android:background="@drawable/ic_menu_marketing"
@@ -38,8 +38,8 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:id="@+id/btn_rrhh"
         android:background="@drawable/ic_menu_rrhh"
@@ -47,8 +47,8 @@
         android:layout_alignParentRight="true"/>
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_restaurante"
@@ -58,8 +58,8 @@
         android:layout_below="@+id/btn_marketing"/>
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_about"
