@@ -12,10 +12,20 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".FinanzasActivity"
+            android:label="Finanzas"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.mycalendar.MyActivity" />
+        </activity>
+
+
     </application>
 
 </manifest>
