@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:clipToPadding="false"
-    android:background="@color/black_background"
+    android:background="@color/primary_color"
     tools:context=".MyActivity">
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:layout_above="@+id/btn_marketing"
         android:id="@+id/btn_finanzas"
@@ -19,8 +19,8 @@
         android:layout_alignParentStart="true"/>
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:layout_above="@+id/btn_rrhh"
         android:id="@+id/btn_produccion"
@@ -28,8 +28,8 @@
         android:layout_alignParentRight="true"/>
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:id="@+id/btn_marketing"
         android:background="@drawable/ic_menu_marketing"
@@ -38,8 +38,8 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:id="@+id/btn_rrhh"
         android:background="@drawable/ic_menu_rrhh"
@@ -47,8 +47,8 @@
         android:layout_alignParentRight="true"/>
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_restaurante"
@@ -58,8 +58,8 @@
         android:layout_below="@+id/btn_marketing"/>
 
     <Button
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_about"

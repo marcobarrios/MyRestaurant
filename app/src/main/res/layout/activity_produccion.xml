@@ -2,27 +2,18 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+    android:parentActivityName="com.dsoft.myrestaurant.MyActivity"
+    android:weightSum="1">
 
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-        <FrameLayout
-            android:id="@+id/container"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
 
-        <com.faizmalkani.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_produccion"
-            app:color="#ffeb3b"
-            app:drawable="@drawable/ic_refresh"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
-            android:layout_gravity="bottom|center"
-            android:layout_marginBottom="10dp" />
-
-    </FrameLayout>
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:name="com.dsoft.myrestaurant.FragmentProductosList"
+        android:id="@+id/fragmento_lista_productos"
+        tools:layout="@layout/fragment_list_productos" />
 
 </LinearLayout>

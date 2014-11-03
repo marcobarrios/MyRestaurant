@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/MyRestaurant.iml" filepath="$PROJECT_DIR$/MyRestaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidplot/androidplot.iml" filepath="$PROJECT_DIR$/androidplot/androidplot.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fab/fab.iml" filepath="$PROJECT_DIR$/fab/fab.iml" />
     </modules>
   </component>
