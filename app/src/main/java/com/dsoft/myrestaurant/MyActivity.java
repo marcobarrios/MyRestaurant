@@ -25,7 +25,8 @@ public class MyActivity extends Activity {
         btnFinanzas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(), ActivityFinanzas.class);
+                startActivity(intent);
             }
         });
 

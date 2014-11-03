@@ -18,6 +18,15 @@
         </activity>
 
         <activity
+            android:name=".ActivityFinanzas"
+            android:label="Finanzas"
+            android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dsoft.myrestaurant.MyActivity" />
+        </activity>
+
+        <activity
             android:name=".ActivityProduccion"
             android:label="@string/name_produccion"
             android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
