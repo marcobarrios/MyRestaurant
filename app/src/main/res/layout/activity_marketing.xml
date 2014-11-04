@@ -7,6 +7,12 @@
     android:layout_gravity="center_vertical"
     android:parentActivityName="com.dsoft.myrestaurant.MyActivity">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ScrollView>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
