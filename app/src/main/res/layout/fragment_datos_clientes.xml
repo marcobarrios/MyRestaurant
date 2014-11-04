@@ -40,11 +40,12 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_aceptar_datos_cliente"
+        android:background="@android:color/darker_gray"
         android:layout_below="@+id/textView2"
-        android:text="Aceptar"
-        android:layout_centerHorizontal="true"/>
+        android:text="Aceptar"/>
 
 </RelativeLayout>

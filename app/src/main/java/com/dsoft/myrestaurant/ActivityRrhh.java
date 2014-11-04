@@ -1,7 +1,10 @@
 package com.dsoft.myrestaurant;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -46,6 +49,13 @@ public class ActivityRrhh extends Activity {
     private void inicializarListView() {
         adapter = new PersonalListAdapter(this, new ArrayList<Personal>());
         personalListView.setAdapter(adapter);
+        personalListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(ActivityRrhh.this, ActivityRrhhDatos.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void inicializarComponentes() {

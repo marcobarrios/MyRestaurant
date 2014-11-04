@@ -70,6 +70,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.dsoft.myrestaurant.MyActivity" />
         </activity>
+
+        <activity
+            android:name=".ActivityRrhhDatos"
+            android:label="Datos Planilla"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+        </activity>
+
+        <activity
+            android:name=".ActivityMarketingDatos"
+            android:label="Datos Clientes"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+        </activity>
+
+        <activity
+            android:name=".ActivityProduccionDatos"
+            android:label="Datos Productos">
+        </activity>
+
     </application>
 
 </manifest>
